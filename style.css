@@ -1,0 +1,48 @@
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.heroW{
+    margin-bottom: 45px;
+    margin-top: 90px;
+    color:rgb(112, 214, 57)
+}
+/* .hero{
+    justify-content: space-between;
+} */
+.button-1 {
+    background-color: #208501;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;    
+}
+.button-2 {
+    background-color: #c5cbc3;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(33, 30, 30);
+    border: none;
+    cursor: pointer;
+}
+.hero h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
