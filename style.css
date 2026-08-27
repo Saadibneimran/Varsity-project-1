@@ -16,12 +16,17 @@ img {
 }
 .heroW{
     margin-bottom: 45px;
-    margin-top: 90px;
-    color:rgb(112, 214, 57)
+    padding-top: 120px;
+    color:rgb(89, 232, 11);
+    font-size: 20px;
 }
-/* .hero{
-    justify-content: space-between;
-} */
+.hero{
+    background-color: rgba(188, 187, 172, 0.184);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
 .button-1 {
     background-color: #208501;
     padding: 12px 20px;
@@ -42,7 +47,77 @@ img {
     border: none;
     cursor: pointer;
 }
-.hero h1 {
-    font-size: 70px;
+ .hero h1 {
+    font-size: 60px;
     margin-bottom: 30px;
+}
+.heroX{
+    margin-bottom: 45px;
+    font-size: 20px;
+    color: rgb(33, 30, 30);
+}
+.button-1,.button-2{
+    margin-bottom: 110px;
+   margin-right: 20px;
+}
+/* Hero End */
+
+
+/* course start */
+.course-likha h3{
+        margin-bottom: 20px;
+        margin-top: 80px;
+        font-size: 45px;
+}
+.containerCourses{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+    
+}
+.price-enroll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 0px 20px;
+}
+.enroll-link{
+    text-decoration: none;
+}
+.course-box1,.course-box2, .course-box3{
+    border: 1px solid rgba(44, 25, 25, 0.102);
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 90px;
+
+}
+.course-box1:hover,.course-box2:hover, .course-box3:hover{
+    box-shadow: 0px 7px 15px black;
+        transform: translateY(-10px);
+
+    transition: 0.3s;
+}
+.bolod{
+    margin: 18px;
+}
+.course-text h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.course-text p{
+    margin-bottom: 25px;
+}
+.course-box1 h4{
+    color: #208501;
+}
+.course-box2 h4{
+    color: #c9bf0e;
+}
+.course-box3 h4{
+    color: #208501;
+}
+.price-enroll a{
+    color: #208501;
 }
